@@ -9,3 +9,14 @@ let f = Symbol("I am a nice symbol");
 let g = undefined;
 console.log(a  ,b ,c ,d ,e, f, g);
 console.log(typeof d)
+
+
+
+//Objects in JS
+const item = {
+    "Harry" : true,
+    "Shubh" : false,
+    "Lovish" : 69,
+    "Rohan" : undefined
+}
+console.log(item["Harry"])
